@@ -1,5 +1,9 @@
 {
-    "MyTask1": {},
+    "MyTask1": {
+        "recognition": "TemplateMatch",
+        "template": "../image/btn_start1.png",
+        "action": "Click"
+    },
     "MyTask2": {},
     "MyTask3": {}
 }
