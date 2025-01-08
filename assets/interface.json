@@ -19,30 +19,31 @@
             "path": [
                 "{PROJECT_DIR}/resource"
             ]
-        },
-        {
-            "name": "B 服",
-            "path": [
-                "{PROJECT_DIR}/resource",
-                "{PROJECT_DIR}/resource_bilibili"
-            ]
         }
     ],
     "task": [
         {
-            "name": "普通任务",
+            "name": "連隊戰出陣",
             "entry": "MyTask1"
         },
         {
-            "name": "选项任务",
-            "entry": "MyTask2",
+            "name": "一般週回4-1",
+            "entry": "MyTask2"
+        },
+        {
+            "name": "一般週回8-1",
+            "entry": "MyTask3"
+        },
+        {
+            "name": "一般任務",
+            "entry": "MyTaskTest",
             "option": [
                 "任务选项1"
             ]
         },
         {
             "name": "参数任务",
-            "entry": "MyTask3",
+            "entry": "MyTaskTest",
             "option": [
                 "任务选项1"
             ],
