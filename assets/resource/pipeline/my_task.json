@@ -3,7 +3,6 @@
         "recognition": "TemplateMatch",
         "template": "../image/btn_start1.png",
         "action": "Click",
-        //"timeout": 30000,
         "next":[
             "forw1",
             "forw2",
