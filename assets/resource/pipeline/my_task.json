@@ -3,9 +3,11 @@
         "recognition": "TemplateMatch",
         "template": "../image/btn_start1.png",
         "action": "Click",
+        //"timeout": 30000,
         "next":[
             "forw1",
-            "forw2"
+            "forw2",
+            "forwauto"
         ],
         "interrupt":["NoTic"]
     },
@@ -77,6 +79,10 @@
         "recognition": "TemplateMatch",
         "template": "../image/btn_start4.png",
         "action": "Click"
+    },
+    "forwauto": {
+        "recognition": "TemplateMatch",
+        "template": "../image/msg_auto.png"
     },
     "MyTask2": {},
     "MyTask3": {},
