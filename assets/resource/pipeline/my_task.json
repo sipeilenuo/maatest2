@@ -57,6 +57,15 @@
         "recognition": "TemplateMatch",
         "template": "../image/InFight.png",
     },
+    "forw": {
+        "recognition": "TemplateMatch",
+        "template": "../image/btn_start1.png",
+        "action": "Click",
+        "next":[
+            "forw1",
+            "forw2"
+        ]
+    },
     "forw1": {
         "recognition": "TemplateMatch",
         "template": "../image/btn_start2.png",
@@ -83,7 +92,18 @@
         "recognition": "TemplateMatch",
         "template": "../image/msg_auto.png"
     },
-    "MyTask2": {},
-    "MyTask3": {},
+    "MyTask2": {
+        "recognition": "TemplateMatch",
+        "template": "../image/btn_start1.png",
+        "action": "Click"
+    },
+    "MyTask3": {
+        "next":[
+            "forw",
+            "forwauto"
+        ],
+        "interrupt":["NoTic"]
+    },
+    "MyTask4": {},
     "MyTaskTest": {}
 }

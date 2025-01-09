@@ -23,15 +23,15 @@
     ],
     "task": [
         {
-            "name": "連隊戰出陣",
+            "name": "test1",
             "entry": "MyTask1"
         },
         {
-            "name": "一般週回4-1",
+            "name": "test2",
             "entry": "MyTask2"
         },
         {
-            "name": "一般週回8-1",
+            "name": "test3",
             "entry": "MyTask3"
         },
         {
