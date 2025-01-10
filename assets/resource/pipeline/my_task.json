@@ -1,109 +1,23 @@
 {
     "MyTask1": {
         "recognition": "TemplateMatch",
-        "template": "../image/btn_start1.png",
-        "action": "Click",
-        "next":[
-            "forw1",
-            "forw2",
-            "forwauto"
-        ],
-        "interrupt":["NoTic"]
-    },
-    "NoTic": {
-        "recognition": "TemplateMatch",
-        "template": "../image/msg_notic.png",
-        "next":["buytic1"]
-    },
-    "buytic1": {
-        "recognition": "TemplateMatch",
-        "template": "../image/btn_notic.png",
-        "action": "Click",
-        "next":["buytic2"]
-    },
-    "buytic2": {
-        "recognition": "TemplateMatch",
-        "template": "../image/msg_buytic4.png",
-        "next":["buytic3"]
-    },
-    "buytic3": {
-        "recognition": "TemplateMatch",
-        "template": "../image/btn_buytic2.png",
-        "action": "Click",
-        "next":["buytic4"]
-    },
-    "buytic4": {
-        "recognition": "TemplateMatch",
-        "template": "../image/msg_buytic5.png",
-        "next":["buytic5"]
-    },
-    "buytic5": {
-        "recognition": "TemplateMatch",
-        "template": "../image/btn_buytic4.png",
-        "action": "Click",
-        "next":["buytic6"]
-    },
-    "buytic6": {
-        "recognition": "TemplateMatch",
-        "template": "../image/msg_buytic3.png",
-        "next":["buytic7"]
-    },
-    "buytic7": {
-        "recognition": "TemplateMatch",
-        "template": "../image/btn_buytic5.png", 
+        "template": "btn_start1.png",
         "action": "Click"
-    },
-    "InFight": {
-        "recognition": "TemplateMatch",
-        "template": "../image/InFight.png",
-    },
-    "forw": {
-        "recognition": "TemplateMatch",
-        "template": "../image/btn_start1.png",
-        "action": "Click",
-        "next":[
-            "forw1",
-            "forw2"
-        ]
-    },
-    "forw1": {
-        "recognition": "TemplateMatch",
-        "template": "../image/btn_start2.png",
-        "action": "Click",
-        "next":["forwchk"]
-    },
-    "forw2": {
-        "recognition": "TemplateMatch",
-        "template": "../image/btn_start3.png",
-        "action": "Click",
-        "next":["forwchk"]
-    },
-    "forwchk": {
-        "recognition": "TemplateMatch",
-        "template": "../image/msg_start1.png",
-        "next":["forwgo"]
-    },
-    "forwgo": {
-        "recognition": "TemplateMatch",
-        "template": "../image/btn_start4.png",
-        "action": "Click"
-    },
-    "forwauto": {
-        "recognition": "TemplateMatch",
-        "template": "../image/msg_auto.png"
     },
     "MyTask2": {
         "recognition": "TemplateMatch",
-        "template": "../image/btn_start1.png",
+        "template": "btn_start1.png",
+        "action": "Click",
+        "next":[
+            "SSJ"
+        ]
+    },
+    "SSJ":{
+        "recognition": "TemplateMatch",
+        "template": "btn_start3.png",
         "action": "Click"
     },
     "MyTask3": {
-        "next":[
-            "forw",
-            "forwauto"
-        ],
-        "interrupt":["NoTic"]
-    },
-    "MyTask4": {},
-    "MyTaskTest": {}
+        "recognition": "OCR"
+    }
 }

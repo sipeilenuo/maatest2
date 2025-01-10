@@ -35,6 +35,10 @@
             "entry": "MyTask3"
         },
         {
+            "name": "test4",
+            "entry": "MyTask4"
+        },
+        {
             "name": "一般任務",
             "entry": "MyTaskTest",
             "option": [
