@@ -27,16 +27,20 @@
             "entry": "MyTask1"
         },
         {
-            "name": "test2",
+            "name": "test1_next",
             "entry": "MyTask2"
         },
         {
-            "name": "test3",
+            "name": "OCRtest",
             "entry": "MyTask3"
         },
         {
-            "name": "test4",
+            "name": "OCRtest_next",
             "entry": "MyTask4"
+        },
+        {
+            "name": "OCR_notictest",
+            "entry": "MyTask5"
         },
         {
             "name": "一般任務",
