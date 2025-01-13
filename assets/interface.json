@@ -23,35 +23,19 @@
     ],
     "task": [
         {
-            "name": "test1",
+            "name": "普通任务",
             "entry": "MyTask1"
         },
         {
-            "name": "test1_next",
-            "entry": "MyTask2"
-        },
-        {
-            "name": "OCRtest",
-            "entry": "MyTask3"
-        },
-        {
-            "name": "OCRtest_next",
-            "entry": "MyTask4"
-        },
-        {
-            "name": "OCR_notictest",
-            "entry": "MyTask5"
-        },
-        {
             "name": "一般任務",
-            "entry": "MyTaskTest",
+            "entry": "MyTask2",
             "option": [
                 "任务选项1"
             ]
         },
         {
             "name": "参数任务",
-            "entry": "MyTaskTest",
+            "entry": "MyTask3",
             "option": [
                 "任务选项1"
             ],

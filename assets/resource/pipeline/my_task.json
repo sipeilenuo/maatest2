@@ -4,47 +4,6 @@
         "template": "btn_start1.png",
         "action": "Click"
     },
-    "MyTask2": {
-        "recognition": "TemplateMatch",
-        "template": "btn_start1.png",
-        "action": "Click",
-        "next":[
-            "SSJ"
-        ]
-    },
-    "SSJ":{
-        "recognition": "TemplateMatch",
-        "template": "btn_start3.png",
-        "action": "Click"
-    },
-    "MyTask3": {
-        "recognition": "OCR",
-        "expected":"部隊選択",
-        "action": "Click"
-    },
-    "MyTask4": {
-        "recognition": "OCR",
-        "expected":"部隊選択",
-        "action": "Click",
-        "next":[
-            "OCR_SSJ"
-        ]
-    },
-    "OCR_SSJ":{
-        "recognition": "OCR",
-        "expected":"出陣!!",
-        "action": "Click"
-    },
-    "MyTask5": {
-        "recognition": "OCR",
-        "expected":"通行手形不足",
-        "next":[
-            "OCR_no_tic"
-        ]
-    },
-    "OCR_no_tic":{
-        "recognition": "OCR",
-        "expected":"小判で補充",
-        "action": "Click"
-    },
+    "MyTask2": {},
+    "MyTask3": {}
 }
