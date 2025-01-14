@@ -4,6 +4,17 @@
         "template": "btn_start1.png",
         "action": "Click"
     },
-    "MyTask2": {},
-    "MyTask3": {}
+    "MyTask2": {
+        "recognition": "TemplateMatch",
+        "template": "btn_start1.png",
+        "action": "Click",
+        "next":[
+            "MyTask3"
+        ]
+    },
+    "MyTask3": {
+        "recognition": "TemplateMatch",
+        "template": "btn_start3.png",
+        "action": "Click"
+    }
 }

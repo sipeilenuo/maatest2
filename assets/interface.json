@@ -27,6 +27,10 @@
             "entry": "MyTask1"
         },
         {
+            "name": "8-1",
+            "entry": "MyTask2"
+        },
+        {
             "name": "一般任務",
             "entry": "MyTask2",
             "option": [
